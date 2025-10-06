@@ -1,12 +1,7 @@
 # Digital Win Room (DWR) Automation Sprint 🚀
-## 2.5 Hour Business Innovation Challenge
+## 1.5 Hour Business Innovation Challenge
 
-Welcome business innovators and citizen developers! Whether you're new to automation or have built agents ### **Expert Mentors Available**
-- **Business Process Experts**: DWR workflow optimization and pain point analysis
-- **Copilot Studio Specialists**: Agent building for experienced and new builders
-- **Power Platform Mentors**: Low-code app development and workflow automation
-- **Integration Specialists**: Connecting to available data sources and systems
-- **Executive Communication Experts**: Designing solutions that leadership will adopt, this sprint challenges you to create practical DWR solutions using low-code/no-code Microsoft tools. Transform your deal review expertise into intelligent automation.
+Welcome business innovators and citizen developers! Whether you're new to automation or have built agents before, this focused 90-minute sprint challenges you to create practical DWR solutions using low-code/no-code Microsoft tools. Transform your deal review expertise into intelligent automation.
 
 ## ⚠️ Important Environment Disclaimers
 
@@ -28,6 +23,8 @@ Welcome business innovators and citizen developers! Whether you're new to automa
 
 ## 🚀 DWR Automation Blueprint
 
+📋 **[View Complete Technical Blueprint →](./AUTOMATION_BLUEPRINT.md)**
+
 ### The Vision: Friday-Triggered Intelligence
 Create an intelligent agent that automatically:
 1. **Ingests deals** from MSX/DWR every Friday *(or mock data for demo)*
@@ -35,7 +32,14 @@ Create an intelligent agent that automatically:
 3. **Nudges owners** via Teams with personalized, contextual prompts
 4. **Compiles meeting views** for executive reviews
 5. **Publishes updates** back to DWR with audit trails *(or SharePoint for demo)*
-6. **Classifies MACC** using Power BI analytics *(or mock classification)*ce the Digital Win Room experience using Microsoft's platform tools.
+6. **Classifies MACC** using Power BI analytics *(or mock classification)*
+
+### Quick Implementation Guide
+- **📊 A. Deal Ingestion & Pre-Fill** - Scheduled Friday triggers and template population
+- **📢 B. Owner Prompting & SLA Nudges** - Teams notifications and escalation workflows  
+- **📈 C. Meeting-Day Assist** - Live compilation and note synthesis
+- **🔄 D. DWR Handoff** - API publishing and audit trails
+- **🤖 E. MACC Automation** - Intelligent deal classificationce the Digital Win Room experience using Microsoft's platform tools.
 
 ## 🎯 Quick Start
 
@@ -53,12 +57,10 @@ Transform the manual, time-consuming process of deal review and executive commun
 4. **Review Preparation**: Weekly review meetings with compiled deal status
 5. **Publishing**: Finalized notes pushed back to DWR application
 
-### Sprint Preparation (First 15 Minutes)
+### Sprint Preparation (First 10 Minutes)
 - [ ] Form your team (2-3 people - mix business knowledge with builder experience)
-- [ ] Choose ONE DWR pain point you personally experience in your role
-- [ ] Assign roles: Process Expert, Agent/App Builder, Demo Storyteller
-- [ ] Confirm your Power Platform/Copilot Studio access
-- [ ] Pick your comfort zone tool: Copilot Studio (if experienced), Power Apps, or Power Automate
+- [ ] Confirm your Power Platform/Copilot Studio access immediately
+- [ ] Pick your tool: Copilot Studio, Power Apps, or Power Automate
 
 ## 💻 Business-Friendly Development Resources
 
@@ -187,69 +189,13 @@ Transform the manual, time-consuming process of deal review and executive commun
 - Hygiene Violations detection
 - Services/Unified Play/ECIF classification
 
-### Judging Criteria
-- **Automation Impact** (30%) - How much manual work is eliminated?
-- **Technical Excellence** (25%) - Quality of Microsoft platform integration
-- **User Experience** (20%) - Ease of use for executives and deal owners
-- **Business Value** (15%) - Real-world applicability and ROI potential
-- **Innovation** (10%) - Creative use of AI and Microsoft technologies
 
-### Timeline (2.5 Hour Sprint)
-- **First 30 minutes**: DWR process overview, team formation & solution design
-- **Next 90 minutes**: Core automation development & integration
-- **Final 30 minutes**: Demo preparation & presentations
+## 🎉 Tips for 90-Minute Sprint Success
 
-## 📞 Getting Help
-
-### Expert Mentors Available
-- **Power Platform Specialists**: Power Apps, Power Automate, AI Builder
-- **Microsoft Graph Experts**: API integration and M365 connectivity
-- **AI/Copilot Mentors**: Building intelligent agents and automation
-- **DWR Process Experts**: Business context and requirements clarification
-- **Azure Integration Specialists**: Cloud services and data flow
-
-### Communication Channels
-- 💬 [Microsoft Teams Channel](https://teams.microsoft.com/your-team-link) - Primary communication
-- 📧 Email: dwr-hackathon@microsoft.com
-- � [Yammer Community](https://www.yammer.com/your-network) - Knowledge sharing
-
-### Live Support During Session
-- **Mentors Available**: Throughout the entire 2.5 hour session
-- **Real-time Help**: Instant support via Teams chat and screen sharing
-- **Quick Solutions**: Focus on rapid problem-solving and unblocking
-
-## 🎉 Tips for 2.5 Hour Sprint Success
-
-1. **Solve Your Own Pain**: Pick a DWR problem you personally deal with weekly
-2. **Start with Templates**: Use Copilot Studio templates or Power Platform samples - don't build from scratch
-3. **Business Logic First**: Design the conversation/workflow based on how you currently handle the process
-4. **Use Your Domain Knowledge**: Your understanding of deal reviews is more valuable than technical perfection
-5. **Check Environment Early**: Verify available connectors with mentors before committing to data integrations
-6. **Mock Realistic Data**: Create sample deals that reflect your actual work scenarios
-7. **Focus on User Experience**: Build something you'd actually want to use in your daily work
-8. **Leverage Your Agent Experience**: If you've built agents before, help teammates with conversation design
-
-## 📋 Submission Requirements
-
-### Sprint Deliverables (Keep It Simple!)
-- [ ] **Working prototype** (Power App, Flow, or Agent demonstration)
-- [ ] **3-minute live demo** showing your automation concept
-- [ ] **Clear problem statement** - which DWR pain point you solved
-- [ ] **Solution overview** - how your automation works
-
-### Quick Documentation (Optional)
-- [ ] Screenshot or screen recording of your solution
-- [ ] One-slide summary of your approach
-- [ ] List of Microsoft tools/services used
-
-### Demo Presentation (3 Minutes Max)
-- [ ] **Problem** (30 seconds): Which DWR pain point?
-- [ ] **Solution** (2 minutes): Live demo of your automation
-- [ ] **Impact** (30 seconds): Time/effort saved, next steps
-
-### Submission Deadline
-**End of 2.5 hour session** - Ready to demo!
-*Present your solution in the final 30 minutes*
+1. **Your Domain Knowledge Wins**: Business logic beats technical complexity every time
+2. **Check Environment in First 5 Minutes**: Verify connectors immediately with mentors
+3. **3 Sample Deals Max**: Create just enough data to demo the concept convincingly
+4. **Demo Story First**: Plan your 2-minute demo narrative while building
 
 ## 🌟 Inspiration & Reference Solutions
 
@@ -290,7 +236,6 @@ Create an intelligent agent that automatically:
 
 ### Sprint Success Criteria
 - **🎯 Clear Demo**: Working prototype that solves a specific DWR problem
-- **⚡ Speed**: Built and demo-ready within 2.5 hours
 - **� Innovation**: Creative use of Microsoft platform capabilities
 - **📱 User Focus**: Solution that executives or deal owners would actually use
 - **� Feasibility**: Realistic path from prototype to production
